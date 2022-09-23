@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(245, 87, 234, 0.72);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: monospace;
+}
+
+.container {
+    background-color: rgb(252, 182, 239);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 40%;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.552);
+}
+
+.container h1{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.349);
+}
+
+textarea {
+    box-sizing: border-box;
+    resize: none;
+    width: 100%;
+    height: 100px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.counter {
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.total {
+    color: blue;
+    font-weight: bold;
+}
+
+.remaining {
+    color: red;
+    font-weight: bold;
+}
